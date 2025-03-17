@@ -1,2 +1,8 @@
-id_rsa.pub
+# Ignore Terraform state files
 terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Ignore SSH keys
+id_rsa
+id_rsa.pub
